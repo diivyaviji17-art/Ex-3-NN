@@ -129,7 +129,9 @@ Output:
 
 <img width="925" height="683" alt="Screenshot 2026-11-20 133331" src="https://github.com/user-attachments/assets/01bb1336-dced-46e5-b3ab-b345425ad9aa" />
 
-Show your results here
+
+
+
 Result:
 
 Thus, XOR classification problem can be solved using MLP in Python 
