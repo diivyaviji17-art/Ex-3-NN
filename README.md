@@ -97,6 +97,7 @@ test=np.array([[0],[1]])
 predict(w1,w2,test)
 test=np.array([[0],[0]])
 predict(w1,w2,test)
+
 ```
 <H3>Output:</H3>
 <img width="925" height="683" alt="Screenshot 2026-11-20 133331" src="https://github.com/user-attachments/assets/1b7d56a1-522b-4856-9e98-b99ff495ff64" />
