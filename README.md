@@ -1,10 +1,22 @@
 ENTER YOUR NAME:R.DIVYADHARSHINI
+
+
 ENTER YOUR REGISTER NO.212225230062
+
+
 EX. NO.3
+
+
 DATE:20.11.26
+
+
 Implementation of MLP for a non-linearly separable data
+
+
 Aim:
 To implement a perceptron for classification using Python
+
+
 Theory:
 Exclusive or is a logical operation that outputs true when the inputs differ.For the XOR gate, the TRUTH table will be as follows:
 
@@ -18,16 +30,38 @@ The graph plots the two inputs corresponding to their output. Visualizing this p
 Algorithm :
 
 Step 1 : Initialize the input patterns for XOR Gate
+
+
 Step 2: Initialize the desired output of the XOR Gate
+
+
 Step 3: Initialize the weights for the 2 layer MLP with 2 Hidden neuron and 1 output neuron
+
+
 Step 3: Repeat the iteration until the losses become constant and minimum
+
+
 (i) Compute the output using forward pass output
+
+
 (ii) Compute the error
+
+
 (iii) Compute the change in weight ‘dw’ by using backward progatation algorithm.
+
+
 (iv) Modify the weight as per delta rule.
+
+
 (v) Append the losses in a list
+
+
 Step 4 : Test for the XOR patterns.
+
+
 Program:
+
+
 ```
 import numpy as np
 import pandas as pd
@@ -91,8 +125,11 @@ test=np.array([[0],[0]])
 predict(w1,w2,test)
 ```
 Output:
+
+
 <img width="925" height="683" alt="Screenshot 2026-11-20 133331" src="https://github.com/user-attachments/assets/01bb1336-dced-46e5-b3ab-b345425ad9aa" />
 
 Show your results here
 Result:
+
 Thus, XOR classification problem can be solved using MLP in Python 
